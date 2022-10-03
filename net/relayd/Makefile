@@ -1,6 +1,6 @@
 PORTNAME=	relayd
 PORTVERSION=	5.5.20140810
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	net
 
 MAINTAINER=	koue@chaosophia.net
@@ -11,7 +11,8 @@ LICENSE=	ISCL
 
 USES=		ssl uidfix
 USE_GITHUB=	yes
-GH_ACCOUNT=	mmatuska
+GH_ACCOUNT=	fichtner
+GH_TAGNAME=	1f41c3a
 
 USE_RC_SUBR=	relayd
 MAKE_ARGS+=	BINDIR=${PREFIX}/sbin \
